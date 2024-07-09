@@ -137,7 +137,7 @@ a{
     transition: ease-in-out 0.3s;
 }
 /* banner part end */
-/* development part start */
+/* web part start */
 #web{
     margin: 100px 0;
 }
@@ -189,5 +189,29 @@ a{
     height: 100%;
     object-fit: contain;
 }
-
-/* development part end */
+/* web part end */
+/* inspiration part start */ 
+.inspiration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 60px;
+}
+.inspiration-container .inspiration-text{
+    max-width: 850px;
+    text-align: center;
+}
+.inspiration-container .inspiration-text p{
+    padding-top: 25px;
+}
+.inspiration-container .inspiration-video{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+/* inspiration part end */ 

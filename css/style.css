@@ -38,6 +38,12 @@ a{
     color: #0D1321;
     line-height: 26px;
 }
+.web-content-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    line-height: 36px;
+}
 .container{
     max-width: 1140px;
     margin: 0 auto;
@@ -67,6 +73,7 @@ a{
     border-radius: 8px;
     cursor: pointer;
     transition: ease-in-out 0.3s;
+    text-transform: capitalize;
 }
 .header-button button:hover{
     background: #0D1321;
@@ -122,6 +129,7 @@ a{
     border-radius: 8px;
     cursor: pointer;
     transition: ease-in-out 0.3s;
+    text-transform: capitalize;
 }
 .banner-btn a:hover{
     background: transparent;
@@ -129,3 +137,57 @@ a{
     transition: ease-in-out 0.3s;
 }
 /* banner part end */
+/* development part start */
+#web{
+    margin: 100px 0;
+}
+.web-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 80px;
+}
+.web-container .web-header{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.web-header h2{
+    width: 100%;
+}
+.web-header p{
+    width: 100%;
+    padding: 15px 0;
+}
+.web-content .content-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 30px;
+}
+.web-content .content-item:nth-child(2){
+    margin: 60px 0;
+}
+ .web-content .content-item .item-text{
+    max-width: 477px;
+}
+ .web-content .content-item .item-text p{
+    padding: 15px 0;
+}
+ .web-content .content-item .item-text button{
+   font-size: 16px;
+   font-weight: 600;
+   color: #0D1321;
+   text-transform: capitalize;
+   padding: 10px 13px;
+   background: transparent;
+   border: 1px solid #0d13217e;
+}
+ .web-content .content-item .item-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* development part end */

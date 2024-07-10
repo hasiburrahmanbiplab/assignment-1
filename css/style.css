@@ -243,6 +243,7 @@ a{
     row-gap: 15px;
     padding: 31px;
     border-radius: 16px;
+    flex-basis: 100%;
 }
 .ct-content .ct-item:nth-child(1){
     background-color: #ffdddb;
@@ -289,7 +290,7 @@ a{
     margin: 60px 0;
 }
 .next-content .next-item .next-icon{
-    width: 190px;
+    min-width: 150px;
     height: 130px;
 }
 .next-content .next-item .next-icon img{

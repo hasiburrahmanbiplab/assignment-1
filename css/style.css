@@ -290,7 +290,6 @@ a{
     width: 190px;
     height: 130px;
 }
-
 .next-content .next-item .next-icon img{
     width: 100%;
     height: 100%;
@@ -319,3 +318,65 @@ a{
     text-transform: capitalize;
 }
 /* next target part end */
+/* support part start */
+#support{
+    margin: 60px 0 100px;
+}
+.support-container{
+    background-color: rgba(0, 0, 0, 0.486);
+    background-image: url(../image/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 315px;
+    background-blend-mode: overlay;
+}
+.support-container .support-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support-content .support-text{
+    max-width: 700px;
+    text-align: center;
+    padding: 10px;
+}
+.support-text p{
+    padding: 15px 0;
+}
+form{
+    max-width: 650px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+form input{
+    width: 80%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0d132198;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+}
+form input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 0.616);
+}
+.support-text form button{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0D1321;
+    padding: 10px 20px;
+    background: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+/* support part end */

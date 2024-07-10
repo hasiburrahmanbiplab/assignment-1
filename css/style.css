@@ -279,6 +279,9 @@ a{
     text-align: center;
     margin: 0 auto;
 }
+.next-container .next-header p{
+    padding: 20px 0;
+}
 .next-container .next-content{
     margin-top: 80px;
 }

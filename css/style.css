@@ -47,7 +47,6 @@ a{
 .container{
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid blue;
 }
 /* common css end */
 /* header part start */
@@ -348,13 +347,13 @@ a{
 }
 form{
     max-width: 650px;
-    height: 40px;
+    height: 50px;
     margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
 }
 form input{
-    width: 80%;
+    width: 75%;
     height: 100%;
     font-size: 16px;
     font-weight: 400;
@@ -374,9 +373,26 @@ form input::placeholder{
     font-size: 14px;
     font-weight: 600;
     color: #0D1321;
-    padding: 10px 20px;
+    padding: 10px 25px;
     background: #ffffff;
     border: none;
     border-radius: 8px;
 }
 /* support part end */
+/* footer part start */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+.footer-content .footer-social{
+    max-width: 350px;
+}
+.footer-social ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+}
+/* footer part end */
